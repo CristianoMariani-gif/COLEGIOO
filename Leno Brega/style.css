@@ -1,0 +1,101 @@
+:root{
+    --branco-principal: #FFFFFF;
+    --cinza-principal: #C0C0C0;
+    --botao-azul: #fcae12f8;
+    --cor-de-fundo: #567df1;
+    --botao-vermelho: #2531d6;
+    --botao-sharingan: #A50C0E;
+}
+body{
+    background-color:black;
+    color: var(--branco-principal);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.principal{
+    background-image: url("boruto.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns:50% 50%;
+}
+.container__botao{
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 1em;
+    text-decoration: none;
+    margin: 1em;
+}
+.container__botao-1{
+    background-color: var(--botao-vermelho);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;
+    text-align: center;
+    margin: 1em;
+}
+.botao_secundario{
+    background-color: rgb(175, 12, 12);
+    border: 2px solid var(--botao-sharingan);
+    margin: 1em;
+}
+.titulo{
+    text-align: center;
+    color: var(--branco-principal);
+}
+.titulo{
+    font-size: 70px;
+    background: linear-gradient(to right, #ffd700, #3a65e7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.container__caixa{
+    margin: 0 3em;
+}
+.container__secundario{
+    width: 100%;
+    border-radius: 10%;
+    margin-top: 4em;
+}
+.secundario{
+    margin: 1em;
+}
+.secundario__botao{
+    display: inline-block;
+    margin: 1em 5em;
+    background-color: var(--botao-sharingan);
+}
+.secundario__imagem{
+    width: 90%;
+    border-radius: 10%
+}
+.container__descricao{
+    margin: center;
+    text-align: center;
+    padding: 1em;
+    margin: 1em;
+    font-size: 1.3em;
+}
+.foto-madara{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2em;
+}
+.descricao__texto{
+    margin-top: 8em;
+}
+.descricao__texto1{
+    margin-top: 8em;
+    margin-left: 3em;
+}

@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container__titulo {
+    background-color: #333333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1em;
+}
+.titulo{
+    margin-top: 20px;
+    padding-left: 10px;
+}
+.logo{
+    display: flex;
+}
+.icone{
+    width: 2.7em;
+    height: 2.7em;
+    justify-content: end;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+.controle{
+    width: 5em;
+    height: 5em;
+}
+
+
+
+
+
+
+nav {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    display: inline;
+    margin-right: 20px;
+} 
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+
+
+
+.section {
+    padding: 20px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+.product {
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    margin: 10px;
+    font-size: large;
+}
+.product img {
+    width: 14.5em;
+    height: 17em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.product{
+    margin: 3em;
+}
+.product button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: medium;
+}
+.cod{
+    width: 14.5em;
+    height: 16em;
+}
+
+
+
+
+
+
+
+footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:808px){
+    .container__titulo{
+    background-color: #333;
+    color: #ffffff;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    }
+}
+@media screen and (max-width:420px){
+    .container__titulo{
+        background-color: #333;
+        color: #ffffff;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        }
+}
+@media screen and (max-width:375px){
+    .container__titulo{
+    background-color: #333;
+    color: #ffffff;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    }
+}
+@media screen and (max-width:360px){
+    .container__titulo{
+    background-color: #333;
+    color: #ffffff;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    }
+    .product{
+        margin: 3em 3em;
+    }
+    .icone{
+        width: 2.7em;
+        height: 2.7em;
+        justify-content: end;
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-left: 1em;
+    }
+    
+}
